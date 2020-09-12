@@ -5,7 +5,7 @@
       <canvas
         id="myCanvas"
         v-bind:class="{eraser: canvasMode === 'eraser'}"
-        width="640px"
+        width="800px"
         height="800px"
         @mousedown="dragStart"
         @mouseup="dragEnd"
